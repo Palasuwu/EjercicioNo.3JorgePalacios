@@ -1,0 +1,42 @@
+import java.util.List;
+
+class Estudiante {
+    private String nombre;
+    private String apellido;
+    private String codigoUnico;
+    private String fechaNacimiento;
+    private String correoElectronico;
+
+    public Estudiante(String nombre, String apellido, String codigoUnico, String fechaNacimiento, String correoElectronico) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.codigoUnico = codigoUnico;
+        this.fechaNacimiento = fechaNacimiento;
+        this.correoElectronico = correoElectronico;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getCodigoUnico() {
+        return codigoUnico;
+    }
+
+    public String getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public String getCorreoElectronico() {
+        return correoElectronico;
+    }
+
+    
+    public String toString() {
+        return nombre + " " + apellido;
+    }
+}
